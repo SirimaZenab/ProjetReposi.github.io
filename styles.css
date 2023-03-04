@@ -1,0 +1,54 @@
+body
+{
+    /* background-color: #03a603; */
+    background: linear-gradient(10deg, #03a603 50%, cyan);
+}
+.formulaire
+{
+    background-color: #fff;
+
+    width: 500px;
+    height: 400px;
+    padding: 20px 0 20px 20px;
+    margin: 6% auto;
+    font-family: serif;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+h1
+{
+    text-align: center;
+
+}
+form label
+{
+    font-weight: bold;
+    line-height: 35px;
+}
+form input
+{
+    width: 93%;
+    height: 50px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.login
+{
+    margin-top: 25px;
+    width: 96%;
+    color: #fff;
+    background-color: #03a603;
+    transition: all 1.5s;
+    border: 1px #03a603 solid;
+}
+.login:hover
+{
+    background-color: #026f02;
+    transition: all 1.5s;
+}
+form img
+{
+    width: 27%;
+    padding-left: 70%;
+    padding-top: 3%;
+}
